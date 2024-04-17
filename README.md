@@ -24,7 +24,7 @@ To get started with the project, follow these steps:
 1.  Clone the Repository:
 bash
 Copy code
-git clone https://github.com/R1dhwiman/imdb-clone.git
+[git clone https://github.com/R1dhwiman/imdb-clone.git](https://github.com/R1dhwiman/IMDB_CN.git)
 
 2.  Navigate to the Project Directory:
 bash

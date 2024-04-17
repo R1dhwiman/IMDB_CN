@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB Coding Ninja Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" text="css" href="style/style.css">
+</head>
+
+<body>
+    <section id="header">
+        <div class="wrapper">
+            <div class="logo">
+                <div class="container">
+                    <p>IMDB.<span>Clone</span></p>
+                    <div class="feature-box">
+                        <a href="MyList.html">MyList</a>
+                    </div>    
+                </div>
+            </div>
+            <div class="search-container">
+                <div class="search-movie">
+                    <h3>Search Movies: </h3>
+                    <input type="text" class="form-control" placeholder="Search Movie ...." id="movie-search-box"
+                        onkeyup="findMovies()" onClick="findMovies()">
+
+                    <div class="search-list" id="search-list">
+                        <!-- list here -->
+                        <!-- <div class="search-list-item">
+                            <div class="search-item-thumbnail">
+                                <img src="image\batman-in-the-heat-of-action-vc.jpg" alt="movie poster">
+                            </div>
+                            <div class="search-item-info">
+                                <h3>BATMAN</h3>
+                                <p>2016</p>
+                                <p class="fav"><i class="fa fa-heart"></i></p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="result-container">
+                    <div class="result-grid" id="result-grid">
+                        <!-- <div class="movie-poster">
+                            <img src="image\batman-in-the-heat-of-action-vc.jpg" alt="movie poster">
+                        </div>
+                        <div class="movie-info">
+                            <h3 class="movie-title">BATMAN <i class="fa fa-heart fav"></i></h3>
+                            <ul class="movie-misc-info">
+                                <li class="year">YEAR: 2016</li>
+                                <li class="rated">RATINGS: PG-13</li>
+                                <li class="released">Released:March 19 2016</li>
+                            </ul>
+                            <p class="genre"><b>Genre:</b> Action, Adventure, thriller</p>
+                            <p class="writer"><b>Writer:</b>
+                                Chris Terrio
+                                David S. Goyer</p>
+                            <p class="actors"><b>Actors: </b>Ben Affleck,Henry Cavill,Amy Adams,Jesse Eisenberg </p>
+                            <p class="plot"><b>Plot:</b> TIn a flashback to his childhood, Bruce Wayne runs from his
+                                parents' funeral. He falls into a cave, where a circling vortex of bats elevates him
+                                back to
+                                the surface. In the present, eighteen months after his cataclysmic battle with General
+                                Zod
+                                in Metropolis, Superman has become a controversial figure. Bruce is now a billionaire
+                                who
+                                has operated in Gotham City as the masked vigilante Batman for twenty years. Having
+                                witnessed the battle in person, he sees Superman as an existential threat to humanity.
+                            </p>
+                            <p class="language"><b>Language:</b> English</p>
+                            <p class="awards"><b><i class="fas fa-award"></i></b> Nominated for multiple Awards</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 # IMDB Clone using OMDB API
 
-HOSTED SITE LINK : 
+HOSTED SITE LINK : https://r1dhwiman.github.io/IMDB_CN/
 
 This project is an IMDB clone developed using the OMDB (Open Movie Database) API. It allows users to search for movies, view movie details, and get information such as ratings, reviews, and cast details.
 
